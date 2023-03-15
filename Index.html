@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Wahyudiyanto_201011400710_05TPLE004</title>
+</head>
+<link rel="shortcut icon" type="image/x-icon" href="IMG/Safeimagekit-resized-img.png">
+<h1>Programming WEB dengan HTML</h1>
+<p>Teknologi Informatika</p>
+<body>
+<hr width=85% size=4 color="blue" Align="left"></hr>
+
+<pre>Home           |           <a href="Home/index.html">Profil</a>          |           <a href="About/index.html">About</a>           |           Gallery         |           <a href="Kontak/index.html">Kontak</a></pre>
+
+<hr width=85% size=4 color="blue" Align="left"></hr>
+
+<div style="text-align:center"> 
+    <button onclick="playPause()">Play/Pause</button> 
+    <button onclick="makeBig()">Big</button>
+    <button onclick="makeSmall()">Small</button>
+    <button onclick="makeNormal()">Normal</button>
+    <br><br>
+    <video id="video1" width="420">
+      <source src="video/Final Trailer (2023 Movie)-(480p).mp4" type="video/mp4">
+    </video>
+  </div>
+
+    <script>
+        var myVideo = document.getElementById("video1"); 
+        
+        function playPause() { 
+          if (myVideo.paused) 
+            myVideo.play(); 
+          else 
+            myVideo.pause(); 
+        } 
+        
+        function makeBig() { 
+            myVideo.width = 700; 
+        } 
+        
+        function makeSmall() { 
+            myVideo.width = 250; 
+        } 
+        
+        function makeNormal() { 
+            myVideo.width = 500; 
+        } 
+        </script>
+
+<p>Terimakasih anda telah bergabung dan berkunjung pada situs kami, kami berharap anda memperoleh informasi yang anda inginkan dan anda cari</p>
+
+<p>Situs ini berisi informasi sekitar materi yang berhubungan dengan programming web, diantaranya : HTML, CSS, PHP Mysql dan materi atau artikel lain sekitar web.</p>
+
+<hr width=85% size=3 color="lightGray" Align="left"></hr>
+
+<p>Admin Web, Me</p>
+<hr>
+
+</body>
+</html>
